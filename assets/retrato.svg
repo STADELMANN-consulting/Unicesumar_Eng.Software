@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" width="400" height="460" role="img" aria-label="Monograma de Claudio Stadelmann">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12161C"/><stop offset="1" stop-color="#1D2A30"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#2A3742" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="460" fill="url(#g)"/>
+  <rect width="400" height="460" fill="url(#grid)" opacity="0.6"/>
+  <circle cx="200" cy="200" r="118" fill="none" stroke="#0E6E77" stroke-width="2" opacity="0.5"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#0E6E77" stroke-width="1" opacity="0.25"/>
+  <text x="200" y="215" text-anchor="middle" font-family="'Space Grotesk',Arial,sans-serif"
+        font-size="150" font-weight="700" letter-spacing="-6" fill="#F6F7F9">CS</text>
+  <text x="200" y="330" text-anchor="middle" font-family="'JetBrains Mono',monospace"
+        font-size="15" letter-spacing="5" fill="#37B3BD">STADELMANN</text>
+  <text x="200" y="356" text-anchor="middle" font-family="'JetBrains Mono',monospace"
+        font-size="11" letter-spacing="3" fill="#9AA6B4">ENG. SOFTWARE · SAP · FIABILITÉ</text>
+  <g stroke="#0E6E77" stroke-width="2">
+    <line x1="40" y1="40" x2="40" y2="64"/><line x1="40" y1="40" x2="64" y2="40"/>
+    <line x1="360" y1="420" x2="360" y2="396"/><line x1="360" y1="420" x2="336" y2="420"/>
+  </g>
+</svg>

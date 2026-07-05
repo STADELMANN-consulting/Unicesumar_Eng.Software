@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12161C"/><stop offset="1" stop-color="#0E1418"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#232F39" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.5"/>
+  <rect x="80" y="86" width="46" height="46" rx="10" fill="#F6F7F9"/>
+  <text x="103" y="118" text-anchor="middle" font-family="'Space Grotesk',Arial" font-size="22" font-weight="700" fill="#12161C">CS</text>
+  <text x="142" y="118" font-family="'JetBrains Mono',monospace" font-size="17" letter-spacing="4" fill="#37B3BD">PORTFÓLIO · ENG. DE SOFTWARE</text>
+  <text x="80" y="300" font-family="'Space Grotesk',Arial" font-size="86" font-weight="700" letter-spacing="-3" fill="#F6F7F9">Claudio Stadelmann</text>
+  <text x="80" y="378" font-family="'Space Grotesk',Arial" font-size="46" font-weight="500" letter-spacing="-1" fill="#37B3BD">Do chão de fábrica ao código.</text>
+  <text x="80" y="448" font-family="'Inter',Arial" font-size="26" fill="#9AA6B4">Coordenador de Métodos &amp; especialista SAP · +20 anos em engenharia industrial</text>
+  <line x1="80" y1="512" x2="1120" y2="512" stroke="#232F39" stroke-width="1"/>
+  <text x="80" y="560" font-family="'JetBrains Mono',monospace" font-size="18" letter-spacing="3" fill="#9AA6B4">SAP PM · FIABILITÉ · RCM · FMEA · HTML · CSS · JAVASCRIPT</text>
+  <g stroke="#0E6E77" stroke-width="3">
+    <line x1="1120" y1="86" x2="1120" y2="126"/><line x1="1120" y1="86" x2="1080" y2="86"/>
+  </g>
+</svg>

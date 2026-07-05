@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300" role="img" aria-label="Miniatura: AUTOMAÇÃO">
+  <defs><pattern id="d" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#E1E6EC" stroke-width="1"/></pattern></defs>
+  <rect width="480" height="300" fill="#FFFFFF"/>
+  <rect width="480" height="300" fill="url(#d)" opacity="0.7"/>
+  
+    <line x1="90" y1="90" x2="250" y2="90" stroke="#C9D2DA" stroke-width="2"/><line x1="90" y1="114" x2="250" y2="114" stroke="#C9D2DA" stroke-width="2"/><line x1="90" y1="138" x2="250" y2="138" stroke="#C9D2DA" stroke-width="2"/><line x1="90" y1="162" x2="250" y2="162" stroke="#C9D2DA" stroke-width="2"/><line x1="90" y1="186" x2="250" y2="186" stroke="#C9D2DA" stroke-width="2"/>
+    <line x1="90" y1="90" x2="90" y2="186" stroke="#C9D2DA" stroke-width="2"/><line x1="170" y1="90" x2="170" y2="186" stroke="#C9D2DA" stroke-width="2"/><line x1="250" y1="90" x2="250" y2="186" stroke="#C9D2DA" stroke-width="2"/>
+    <rect x="90" y="90" width="160" height="24" fill="#0E6E77" opacity="0.15"/>
+    <path d="M290 138 H400" stroke="#0E6E77" stroke-width="3"/>
+    <polygon points="396,133 404,138 396,143" fill="#0E6E77"/>
+    <rect x="300" y="112" width="90" height="52" rx="6" fill="none" stroke="#12161C" stroke-width="2"/>
+    <text x="345" y="144" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="13" fill="#12161C">M</text>
+  <text x="24" y="272" font-family="'JetBrains Mono',monospace" font-size="12" letter-spacing="2" fill="#57616F">excel · power query</text>
+  <text x="456" y="272" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="11" letter-spacing="2" fill="#0E6E77">AUTOMAÇÃO</text>
+</svg>
