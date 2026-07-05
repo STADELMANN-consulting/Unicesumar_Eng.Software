@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- ================= META BÁSICAS / SEO ================= -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Marca que o JS está ativo (para animações com fallback seguro) -->
+  <script>document.documentElement.classList.add("js");</script>
+  <title>Claudio Stadelmann | Engenharia de Software & SAP — Portfólio</title>
+  <meta name="description" content="Portfólio de Claudio Stadelmann: Coordenador de Métodos de Manutenção e especialista SAP com +20 anos de experiência industrial, agora em Engenharia de Software. A ponte entre a operação e o software.">
+  <meta name="keywords" content="Claudio Stadelmann, portfólio, engenharia de software, SAP PM, manutenção, confiabilidade, RCM, FMEA, front-end, UniCesumar">
+  <meta name="author" content="Claudio Stadelmann">
+  <link rel="canonical" href="https://stadelmann-consulting.github.io/Unicesumar_Eng.Software/">
+
+  <!-- ================= OPEN GRAPH / REDES SOCIAIS ================= -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Claudio Stadelmann | Engenharia de Software & SAP">
+  <meta property="og:description" content="Do chão de fábrica ao código. +20 anos em manutenção, confiabilidade e SAP, agora em Engenharia de Software.">
+  <meta property="og:url" content="https://stadelmann-consulting.github.io/Unicesumar_Eng.Software/">
+  <meta property="og:image" content="assets/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- ================= FAVICON E FONTES ================= -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- ================= ESTILOS ================= -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================================================================
+       CABEÇALHO E NAVEGAÇÃO (repetido em todas as páginas)
+       ================================================================ -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="index.html" class="brand" aria-label="Início — Claudio Stadelmann">
+          <span class="brand__mark" aria-hidden="true">CS</span>
+          <span class="brand__name">Claudio Stadelmann<small>Eng. de Software</small></span>
+        </a>
+
+        <div class="nav__menu" id="menu-principal">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="index.html" aria-current="page">Início</a></li>
+            <li><a class="nav__link" href="sobre.html">Sobre</a></li>
+            <li><a class="nav__link" href="projetos.html">Projetos</a></li>
+            <li><a class="nav__link" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__right">
+          <!-- Botão de tema claro/escuro -->
+          <button class="theme-toggle" aria-label="Alternar tema claro e escuro" type="button">
+            <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+            <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.4 1.4M17.6 17.6 19 19M19 5l-1.4 1.4M6.4 17.6 5 19"/></svg>
+          </button>
+          <!-- Botão hambúrguer (mobile) -->
+          <button class="nav__burger" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="menu-principal" type="button">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================================================================
+         HERO
+         ================================================================ -->
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Portfólio · Eng. de Software · UniCesumar</p>
+        <h1>Claudio Stadelmann</h1>
+        <p class="hero__role">Do chão de fábrica ao código.</p>
+        <p class="lead hero__text">
+          Coordenador de Métodos de Manutenção e especialista <strong>SAP</strong> com mais de
+          20 anos de experiência nos setores biofarmacêutico, químico e de mineração. Hoje, cursando
+          <strong>Engenharia de Software</strong>, construo a ponte entre a operação industrial
+          e a tecnologia — unindo confiabilidade, dados e desenvolvimento.
+        </p>
+
+        <div class="hero__cta">
+          <a href="projetos.html" class="btn btn--primary">Ver projetos <span class="btn__arrow" aria-hidden="true">→</span></a>
+          <a href="contato.html" class="btn btn--ghost">Falar comigo</a>
+        </div>
+
+        <!-- ASSINATURA VISUAL: painel de indicadores estilo instrumento -->
+        <div class="readout reveal" aria-label="Indicadores de carreira">
+          <div class="readout__bar">
+            <span class="readout__dot" aria-hidden="true"></span>
+            perfil · disponibilidade operacional
+          </div>
+          <div class="readout__grid">
+            <div class="kpi">
+              <div class="kpi__num" data-count="20">20<span class="suffix">+</span></div>
+              <div class="kpi__label">Anos de experiência</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi__num" data-count="15">15<span class="suffix">+</span></div>
+              <div class="kpi__label">Anos em SAP PM</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi__num" data-count="8">8</div>
+              <div class="kpi__label">Empresas</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi__num" data-count="3">3</div>
+              <div class="kpi__label">Idiomas (PT/FR/EN)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         ATUAÇÃO — três áreas que se conectam
+         ================================================================ -->
+    <section class="section" id="atuacao">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">01 · Atuação</p>
+          <h2>Três mundos, uma engenharia</h2>
+          <p>Minha trajetória combina a disciplina da engenharia industrial com a lógica do desenvolvimento de software. É essa combinação que uso para resolver problemas do começo ao fim.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <span class="card__index">/01</span>
+            <h3>Engenharia de Software</h3>
+            <p>Formação em andamento na UniCesumar. Desenvolvimento front-end (HTML, CSS, JavaScript), lógica de programação, estruturas de dados e programação orientada a objetos.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__index">/02</span>
+            <h3>SAP & Asset Management</h3>
+            <p>Mais de 15 anos em SAP PM, MM e EWM. Governança de dados mestres, migração para S/4HANA e integração de fluxos para garantir integridade (GxP) e eficiência.</p>
+          </article>
+          <article class="card reveal">
+            <span class="card__index">/03</span>
+            <h3>Confiabilidade & Métodos</h3>
+            <p>Estratégias de manutenção baseadas em confiabilidade (RCM), análises FMEA e DMAIC para maximizar a disponibilidade dos ativos com o melhor equilíbrio econômico.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ================================================================
+         A PONTE — narrativa de transição
+         ================================================================ -->
+    <section class="section" id="ponte">
+      <div class="container">
+        <div class="grid grid--2" style="align-items:center; gap:var(--sp-8);">
+          <div class="reveal">
+            <p class="eyebrow">02 · A ponte</p>
+            <h2>Entre o negócio e a TI</h2>
+            <p style="margin-top:var(--sp-2)">
+              Passei duas décadas transformando o modelo preventivo de manutenção em uma estratégia
+              <strong>proativa e baseada na condição</strong> dos equipamentos. Sempre no ponto onde o
+              chão de fábrica encontra os sistemas de informação.
+            </p>
+            <p style="margin-top:var(--sp-2)">
+              Aprender a programar é o passo natural dessa jornada: deixar de apenas configurar e
+              consumir sistemas para <strong>construí-los</strong>. É por isso que estudo Engenharia de
+              Software — para ser o elo estratégico entre a necessidade do negócio e a solução técnica.
+            </p>
+          </div>
+
+          <!-- Bloco de "stack" em monoespaçada -->
+          <div class="card reveal" style="background:var(--surface-2)">
+            <p class="eyebrow">stack &amp; domínios</p>
+            <div class="project__stack" style="margin-top:var(--sp-2)">
+              <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Java</span>
+              <span>Linguagem C</span><span>POO</span><span>SAP PM</span><span>SAP MM</span>
+              <span>SAP EWM</span><span>S/4HANA</span><span>RCM</span><span>FMEA</span>
+              <span>DMAIC</span><span>Power Query</span><span>GxP / GMP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         PROJETOS EM DESTAQUE
+         ================================================================ -->
+    <section class="section" id="destaques">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">03 · Destaques</p>
+          <h2>Projetos em destaque</h2>
+          <p>Uma amostra do meu trabalho — do desenvolvimento acadêmico às arquiteturas industriais. Veja todos na página de projetos.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="project reveal" data-category="software">
+            <img class="project__thumb" src="assets/proj-portfolio.svg" alt="Ilustração técnica do projeto de portfólio pessoal">
+            <div class="project__body">
+              <span class="project__tag">Front-end</span>
+              <h3>Portfólio pessoal responsivo</h3>
+              <p>Site multipágina responsivo em HTML, CSS e JavaScript, com tema claro/escuro e validação de formulário.</p>
+              <div class="project__stack"><span>html</span><span>css</span><span>javascript</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="software">
+            <img class="project__thumb" src="assets/proj-sap.svg" alt="Ilustração de painel de manutenção digitalizada SAP">
+            <div class="project__body">
+              <span class="project__tag">SAP · Indústria</span>
+              <h3>Manutenção digitalizada</h3>
+              <p>Arquitetura de manutenção proativa em SAP S/4HANA, transformando o preventivo em preditivo com dados e IoT.</p>
+              <div class="project__stack"><span>sap s/4hana</span><span>rcm</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-category="academico">
+            <img class="project__thumb" src="assets/proj-trivia.svg" alt="Ilustração do jogo de perguntas Show do Javascriptão">
+            <div class="project__body">
+              <span class="project__tag">Acadêmico</span>
+              <h3>Show do Javascriptão</h3>
+              <p>Jogo de perguntas e respostas com manipulação de DOM, eventos e armazenamento local (localStorage).</p>
+              <div class="project__stack"><span>javascript</span><span>dom</span></div>
+            </div>
+          </article>
+        </div>
+
+        <div style="margin-top:var(--sp-4)">
+          <a href="projetos.html" class="btn btn--ghost">Ver todos os projetos <span class="btn__arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================
+         CHAMADA FINAL (CTA)
+         ================================================================ -->
+    <section class="section--tight">
+      <div class="container">
+        <div class="callout reveal">
+          <p class="eyebrow" style="justify-content:center; color:var(--accent)">Vamos conversar</p>
+          <h2>Interessado em unir indústria e software?</h2>
+          <p>Estou aberto a projetos, colaborações e trocas sobre transformação digital, SAP e desenvolvimento. Será um prazer conversar.</p>
+          <a href="contato.html" class="btn btn--primary">Entrar em contato <span class="btn__arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================================================================
+       RODAPÉ (repetido em todas as páginas)
+       ================================================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand__mark" aria-hidden="true">CS</span>
+            <span class="brand__name">Claudio Stadelmann<small>Eng. de Software</small></span>
+          </a>
+          <p>Coordenador de Métodos de Manutenção &amp; especialista SAP. Do chão de fábrica ao código.</p>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Navegação</h4>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contato.html">Contato</a>
+          </div>
+          <div class="footer-col">
+            <h4>Contato</h4>
+            <a href="mailto:claudio.stadelmann77@gmail.com">E-mail</a>
+            <a href="https://www.linkedin.com/in/claudiostadelmann-fr" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="mono">© 2025 Claudio Stadelmann · Savièse, Suíça</span>
+        <span class="mono">Feito com HTML · CSS · JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão "voltar ao topo" (controlado por jQuery) -->
+  <button id="to-top" class="to-top" aria-label="Voltar ao topo" type="button">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <!-- ================= SCRIPTS ================= -->
+  <!-- jQuery (via CDN) — usado no filtro de projetos e na rolagem suave -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+  <!-- Comportamento do site -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>

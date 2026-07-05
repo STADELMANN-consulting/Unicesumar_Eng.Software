@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Marca que o JS está ativo (para animações com fallback seguro) -->
+  <script>document.documentElement.classList.add("js");</script>
+  <title>Sobre | Claudio Stadelmann — Perfil, competências e trajetória</title>
+  <meta name="description" content="Conheça a trajetória de Claudio Stadelmann: +20 anos em manutenção, confiabilidade e SAP na Merck, Sun Chemical, B. Braun e Vale, agora em Engenharia de Software na UniCesumar.">
+  <meta name="keywords" content="Claudio Stadelmann, sobre, trajetória, SAP PM, confiabilidade, RCM, FMEA, engenharia de software, currículo">
+  <meta name="author" content="Claudio Stadelmann">
+  <link rel="canonical" href="https://stadelmann-consulting.github.io/Unicesumar_Eng.Software/sobre.html">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Sobre | Claudio Stadelmann">
+  <meta property="og:description" content="+20 anos em manutenção, confiabilidade e SAP, agora em Engenharia de Software.">
+  <meta property="og:url" content="https://stadelmann-consulting.github.io/Unicesumar_Eng.Software/sobre.html">
+  <meta property="og:image" content="assets/og-cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== CABEÇALHO ===== -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="index.html" class="brand" aria-label="Início — Claudio Stadelmann">
+          <span class="brand__mark" aria-hidden="true">CS</span>
+          <span class="brand__name">Claudio Stadelmann<small>Eng. de Software</small></span>
+        </a>
+        <div class="nav__menu" id="menu-principal">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="index.html">Início</a></li>
+            <li><a class="nav__link" href="sobre.html" aria-current="page">Sobre</a></li>
+            <li><a class="nav__link" href="projetos.html">Projetos</a></li>
+            <li><a class="nav__link" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="nav__right">
+          <button class="theme-toggle" aria-label="Alternar tema claro e escuro" type="button">
+            <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+            <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.4 1.4M17.6 17.6 19 19M19 5l-1.4 1.4M6.4 17.6 5 19"/></svg>
+          </button>
+          <button class="nav__burger" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="menu-principal" type="button">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== TÍTULO DA PÁGINA ===== -->
+    <section class="section--tight" style="padding-top:var(--sp-8)">
+      <div class="container">
+        <p class="eyebrow reveal">Sobre</p>
+        <h1 class="reveal" style="margin-top:var(--sp-2)">Perfil profissional</h1>
+        <p class="lead reveal" style="margin-top:var(--sp-2)">Engenheiro de métodos que decidiu aprender a construir os sistemas que sempre usou.</p>
+      </div>
+    </section>
+
+    <!-- ===== BIO + FICHA + COMPETÊNCIAS ===== -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="about">
+          <!-- Coluna lateral: retrato + ficha técnica -->
+          <aside class="about__aside reveal">
+            <div class="portrait">
+              <img src="assets/retrato.svg" alt="Monograma de Claudio Stadelmann">
+            </div>
+            <div class="factsheet">
+              <dl>
+                <div class="row"><dt>Localização</dt><dd>Savièse, Suíça</dd></div>
+                <div class="row"><dt>Cargo</dt><dd>Coord. Métodos</dd></div>
+                <div class="row"><dt>Empresa</dt><dd>Merck Healthcare</dd></div>
+                <div class="row"><dt>Experiência</dt><dd>+20 anos</dd></div>
+                <div class="row"><dt>Formação</dt><dd>Eng. Software</dd></div>
+                <div class="row"><dt>Idiomas</dt><dd>PT · FR · EN</dd></div>
+              </dl>
+            </div>
+          </aside>
+
+          <!-- Coluna principal: biografia + barras de competência -->
+          <div>
+            <div class="reveal">
+              <h2>Quem sou eu</h2>
+              <p style="margin-top:var(--sp-2)">
+                Sou engenheiro de métodos na <strong>Merck Group</strong>, com mais de 15 anos de
+                especialização em <strong>SAP PM</strong> nos setores biofarmacêutico, químico e de
+                mineração. No centro da transformação digital, concebo arquiteturas de manutenção
+                digitalizada, transformando o modelo preventivo em uma estratégia de
+                <strong>manutenção proativa baseada na condição (CBM)</strong> por meio de soluções
+                tecnológicas inovadoras.
+              </p>
+              <p style="margin-top:var(--sp-2)">
+                Minha força está na fusão entre o campo e os sistemas de informação. Otimizo
+                ecossistemas de <strong>Asset Management</strong> estruturando fluxos de dados
+                (SAP PM, MM, EWM) para garantir a integridade (GxP) e a eficiência operacional. Como
+                especialista em confiabilidade, modelo estratégias <strong>RCM</strong> para maximizar
+                a disponibilidade dos ativos com o melhor equilíbrio econômico.
+              </p>
+              <p style="margin-top:var(--sp-2)">
+                Atualmente, no <strong>Bacharelado em Engenharia de Software</strong>, reforço minhas
+                competências para me tornar o elo estratégico entre as necessidades do negócio e a
+                capacidade da TI.
+              </p>
+            </div>
+
+            <!-- Barras de competência (animadas ao rolar) -->
+            <div class="reveal" style="margin-top:var(--sp-6)">
+              <p class="eyebrow">Competências</p>
+              <div style="margin-top:var(--sp-3)">
+                <div class="skill"><div class="skill__top"><b>SAP PM / MM / EWM</b><span>95%</span></div><div class="skill__track"><div class="skill__fill" data-level="95"></div></div></div>
+                <div class="skill"><div class="skill__top"><b>Métodos de manutenção</b><span>95%</span></div><div class="skill__track"><div class="skill__fill" data-level="95"></div></div></div>
+                <div class="skill"><div class="skill__top"><b>Confiabilidade · RCM · FMEA · DMAIC</b><span>90%</span></div><div class="skill__track"><div class="skill__fill" data-level="90"></div></div></div>
+                <div class="skill"><div class="skill__top"><b>Excel · Power Query · automação</b><span>88%</span></div><div class="skill__track"><div class="skill__fill" data-level="88"></div></div></div>
+                <div class="skill"><div class="skill__top"><b>HTML5 &amp; CSS3</b><span>75%</span></div><div class="skill__track"><div class="skill__fill" data-level="75"></div></div></div>
+                <div class="skill"><div class="skill__top"><b>JavaScript</b><span>65%</span></div><div class="skill__track"><div class="skill__fill" data-level="65"></div></div></div>
+                <div class="skill"><div class="skill__top"><b>Java &amp; POO · Linguagem C</b><span>60%</span></div><div class="skill__track"><div class="skill__fill" data-level="60"></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ===== TRAJETÓRIA (linha do tempo) ===== -->
+    <section class="section" id="trajetoria">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Trajetória</p>
+          <h2>Mais de 20 anos de engenharia</h2>
+          <p>Da operação de produção à coordenação de métodos e à transformação digital — na Suíça e no Brasil.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="tl-item reveal">
+            <p class="tl-item__date">2025 — atual</p>
+            <h3>Coordenador de Métodos de Manutenção &amp; SAP PM</h3>
+            <p class="org">Merck Healthcare — Corsier-sur-Vevey, Suíça</p>
+            <p>Integração de soluções SAP S/4HANA para transformar a manutenção preventiva em preditiva (IoT / IA); governança de dados mestres e alinhamento entre o negócio e a TI.</p>
+          </div>
+          <div class="tl-item reveal">
+            <p class="tl-item__date">2022 — 2025</p>
+            <h3>Maintenance Planner &amp; SAP PM Data Manager</h3>
+            <p class="org">Sun Chemical — Monthey, Suíça</p>
+            <p>Planejamento das manutenções preventivas e corretivas, gestão de dados mestres e planos de manutenção.</p>
+          </div>
+          <div class="tl-item reveal">
+            <p class="tl-item__date">2020 — 2022</p>
+            <h3>Responsável de Métodos / Consultor SAP PM-EWM</h3>
+            <p class="org">B. Braun — Crissier, Suíça</p>
+            <p>Implementação e integração do SAP EWM com o SAP PM: blueprint, SOPs, formação de key users e acompanhamento pós-GoLive.</p>
+          </div>
+          <div class="tl-item reveal">
+            <p class="tl-item__date">2019 — 2020</p>
+            <h3>Engenheiro de Manutenção — Responsável HVAC</h3>
+            <p class="org">Bilfinger SE — Évionnaz, Suíça</p>
+            <p>Planejamento de instalações de produção e sistemas HVAC; gestão de planos de manutenção e substituição do responsável pela qualidade (GMP).</p>
+          </div>
+          <div class="tl-item reveal">
+            <p class="tl-item__date">2009 — 2017</p>
+            <h3>Técnico de Confiabilidade &amp; Team Leader de Manutenção</h3>
+            <p class="org">Vale — Ourilândia do Norte, Pará, Brasil</p>
+            <p>Quase 8 anos na mineração de níquel: análises de falha, revisão de planos de manutenção, super user SAP PM e liderança de equipes de melhoria contínua (DMAIC).</p>
+          </div>
+          <div class="tl-item reveal">
+            <p class="tl-item__date">2002 — 2005</p>
+            <h3>Operador de Produção</h3>
+            <p class="org">Ciba — Monthey, Suíça</p>
+            <p>Operações de produção manuais e automatizadas via sala de comando; análises de controle de qualidade em laboratório.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider">
+
+    <!-- ===== FORMAÇÃO + CERTIFICAÇÕES ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="grid grid--2" style="gap:var(--sp-8); align-items:start">
+          <!-- Formação -->
+          <div class="reveal">
+            <p class="eyebrow">Formação</p>
+            <h2 style="margin-top:var(--sp-2)">Educação</h2>
+            <div style="margin-top:var(--sp-3)">
+              <article class="card" style="margin-bottom:var(--sp-2)">
+                <span class="card__index">2024 — 2028</span>
+                <h3>Bacharelado em Engenharia de Software</h3>
+                <p>UniCesumar</p>
+              </article>
+              <article class="card" style="margin-bottom:var(--sp-2)">
+                <span class="card__index">2024 — 2025</span>
+                <h3>Certificado profissional em Informática — Análise e Programação</h3>
+                <p>CNFDI — Centre National de Formation à Distance</p>
+              </article>
+              <article class="card" style="margin-bottom:var(--sp-2)">
+                <span class="card__index">2017 — 2019</span>
+                <h3>Brevet Fédéral — Tecnologias de Manutenção Industrial</h3>
+                <p>Centre de formation ESG — FMPro</p>
+              </article>
+              <article class="card">
+                <span class="card__index">2016 — 2017</span>
+                <h3>Pós-graduação em Engenharia e Gestão da Manutenção</h3>
+                <p>Universidade Candido Mendes</p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Certificações -->
+          <div class="reveal">
+            <p class="eyebrow">Certificações</p>
+            <h2 style="margin-top:var(--sp-2)">Reconhecimentos</h2>
+            <div style="margin-top:var(--sp-3)">
+              <article class="card" style="margin-bottom:var(--sp-2)">
+                <span class="card__index">2024</span>
+                <h3>TOP Scorer — SAP Challenge Europe</h3>
+                <p>by Deloitte</p>
+              </article>
+              <article class="card" style="margin-bottom:var(--sp-2)">
+                <span class="card__index">Confiabilidade</span>
+                <h3>Imersão em Engenharia de Confiabilidade</h3>
+                <p>Reliability Engineering</p>
+              </article>
+              <article class="card" style="margin-bottom:var(--sp-2)">
+                <span class="card__index">Excel</span>
+                <h3>Excel Expert — Macros, Power Query &amp; Power Pivot</h3>
+                <p>Build, Clean, Visualize &amp; Automate Everything</p>
+              </article>
+              <article class="card">
+                <span class="card__index">Excel</span>
+                <h3>Excel Pro — Build, Clean, Visualize &amp; Consolidate</h3>
+                <p>Data with Excel</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="section--tight">
+      <div class="container">
+        <div class="callout reveal">
+          <h2>Quer saber mais sobre meu trabalho?</h2>
+          <p>Veja os projetos que unem engenharia industrial e desenvolvimento, ou fale diretamente comigo.</p>
+          <a href="projetos.html" class="btn btn--primary">Ver projetos <span class="btn__arrow" aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand__mark" aria-hidden="true">CS</span>
+            <span class="brand__name">Claudio Stadelmann<small>Eng. de Software</small></span>
+          </a>
+          <p>Coordenador de Métodos de Manutenção &amp; especialista SAP. Do chão de fábrica ao código.</p>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-col">
+            <h4>Navegação</h4>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contato.html">Contato</a>
+          </div>
+          <div class="footer-col">
+            <h4>Contato</h4>
+            <a href="mailto:claudio.stadelmann77@gmail.com">E-mail</a>
+            <a href="https://www.linkedin.com/in/claudiostadelmann-fr" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="mono">© 2025 Claudio Stadelmann · Savièse, Suíça</span>
+        <span class="mono">Feito com HTML · CSS · JavaScript</span>
+      </div>
+    </div>
+  </footer>
+
+  <button id="to-top" class="to-top" aria-label="Voltar ao topo" type="button">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" defer></script>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
